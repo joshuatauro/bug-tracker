@@ -2,8 +2,8 @@ import React from 'react'
 import {  ChartBarIcon, CodeBracketIcon, Cog6ToothIcon, HeartIcon, LinkIcon, SunIcon, UserIcon } from '@heroicons/react/24/outline'
 const Navbar = () => {
   return (
-    <nav className="col-span-2 h-screen bg-dt-p text-white">
-      <div className="mx-5 py-10 h-full ">
+    <nav className="col-span-2 h-screen bg-dt-p relative ">
+      <div className="px-5 py-10 h-full fixed w-full top-0 bg-dt-p text-white ">
         <div className="flex flex-col justify-between h-full">
           <div className="">
             <h1 className='font-medium text-3xl mb-10'>BugTrackrr</h1>
