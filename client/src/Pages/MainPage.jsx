@@ -73,12 +73,12 @@ const ProjectMini = () => {
     <div className="w-full bg-dt-fade rounded-md px-3 py-4 mb-2">
       <div className="flex justify-between">
         <div className="">
-          <h1 className='text-white uppercase font-medium text-lg'>BugTrackrr</h1>
+          <h1 className='text-white uppercase font-medium text-lg'>BugTrackrr  </h1>
           <p className='text-dt-text font-medium text-sm'>Joshua Tauro</p>
         </div>
         <div className="flex">
           <BugAntIcon height={20} color={"white"} />
-          <p className='text-white font-medium ml-2'>12 bugs</p>
+          <p className='text-white font-medium ml-2'>12 ongoing bugs</p>
         </div>
       </div>
     </div>
